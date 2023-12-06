@@ -17,8 +17,8 @@ const Footer = () => {
             }}
           >
             <img
-              src="src\assets\top.png"
-              alt="logo"
+              src="src\assets\topimg.png"
+              alt="Top"
               className="w-9 h-9 object-contain opacity-30"
             />
           </Link>
