@@ -17,7 +17,7 @@ const Footer = () => {
             }}
           >
             <img
-              src="src\assets\topimg.png"
+              src="https://cdn2.iconfinder.com/data/icons/gradient-purple-navigation-and-transactional-for-w/40/up-purp-512.png"
               alt="Top"
               className="w-9 h-9 object-contain opacity-30"
             />
