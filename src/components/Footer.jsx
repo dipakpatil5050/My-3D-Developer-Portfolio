@@ -65,7 +65,7 @@ const Footer = () => {
       opacity-30
       "
       >
-        All right Reserved &copy; 2023
+        All right Reserved &copy; 2024
       </h5>
     </div>
   );
