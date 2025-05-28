@@ -263,6 +263,28 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "SYSPRO ERP App",
+    link: "https://play.google.com/store/apps/details?id=com.sysproerp.sysproapp",
+    description:
+      "Develop a Full Stack ERP Mobile application with support on Android and IOS Users for Galaxy Infotech",
+    tags: [
+      {
+        name: "Three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
