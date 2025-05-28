@@ -22,7 +22,6 @@ timport {
   carrent,
   jobit,
   tripguide,
-    ERP,
   threejs,
 } from "../assets";
 
@@ -283,7 +282,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ERP,
+    image: "https://github.com/user-attachments/assets/8e34143b-61d1-4f8d-ad22-b6a9597af349",
     source_code_link: "https://github.com/dipakpatil5050",
   },
 ];
