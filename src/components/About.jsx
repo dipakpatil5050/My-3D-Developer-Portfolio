@@ -51,10 +51,10 @@ const About = () => {
         max-w-lg leading-[30px]"
       >
         I'm Dipak Patil from Dhule, Maharashtra, India. a skilled software
-        developer with experience in JavaScript and Java, and expertise in
-        frameworks like React, Node.js, and Three.js. I'm a quick learner and
+        developer with experience in JavaScript and Java , and expertise in
+        frameworks like React, Node.js, Spring Boot and Redux. I'm a quick learner and
         collaborate closely with clients to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
+        user-friendly Products and solutions that solve real-world problems. Let's work
         together to bring your ideas to life!
       </motion.p>
 
