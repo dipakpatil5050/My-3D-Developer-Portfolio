@@ -1,4 +1,4 @@
-import {
+timport {
   mobile,
   backend,
   creator,
@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+    ERP,
   threejs,
 } from "../assets";
 
@@ -267,23 +268,23 @@ const projects = [
     name: "SYSPRO ERP App",
     link: "https://play.google.com/store/apps/details?id=com.sysproerp.sysproapp",
     description:
-      "Develop a Full Stack ERP Mobile application with support on Android and IOS Users for Galaxy Infotech",
+      "A full-featured, scalable ERP mobile application designed for both Android and iOS platforms. This project streamlines enterprise resource planning by integrating core business functions like inventory management, sales tracking, and reporting into a unified mobile experience.",
     tags: [
       {
-        name: "Three.js",
+        name: "Redux",
         color: "blue-text-gradient",
       },
       {
-        name: "React.js",
+        name: "React Native",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "",
+    image: ERP,
+    source_code_link: "https://github.com/dipakpatil5050",
   },
 ];
 
