@@ -24,7 +24,7 @@ const Hero = () => {
            mt-2 text-white-100`}
           >
             I Develop 3D Modern Front-end, <br className="sm:block hidden" />{" "}
-            user interfaces and Web Application
+            user interfaces and Full Stack Application
           </p>
         </div>
       </div>
