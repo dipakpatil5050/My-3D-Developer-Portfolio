@@ -1,4 +1,4 @@
-timport {
+import {
   mobile,
   backend,
   creator,
