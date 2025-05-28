@@ -265,7 +265,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "SYSPRO ERP App",
+    name: "SYSPRO ERP Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.sysproerp.sysproapp",
     description:
       "A full-featured, scalable ERP mobile application designed for both Android and iOS platforms. This project streamlines enterprise resource planning by integrating core business functions like inventory management, sales tracking, and reporting into a unified mobile experience.",
