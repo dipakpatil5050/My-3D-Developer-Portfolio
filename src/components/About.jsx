@@ -52,7 +52,7 @@ const About = () => {
       >
         I'm Dipak Patil from Dhule, Maharashtra, India. a skilled software
         developer with experience in JavaScript and Java , and expertise in
-        frameworks like React, Node.js, Spring Boot and Redux. I'm a quick learner and
+        frameworks like React, React Native, Node.js and Spring Boot. I'm a quick learner and
         collaborate closely with clients to create efficient, scalable, and
         user-friendly Products and solutions that solve real-world problems. Let's work
         together to bring your ideas to life!
