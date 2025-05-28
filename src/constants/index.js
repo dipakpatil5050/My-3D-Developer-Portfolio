@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  ERP
 } from "../assets";
 
 export const navLinks = [
@@ -270,11 +271,11 @@ const projects = [
       "A full-featured, scalable ERP mobile application designed for both Android and iOS platforms. This project streamlines enterprise resource planning by integrating core business functions like inventory management, sales tracking, and reporting into a unified mobile experience.",
     tags: [
       {
-        name: "Redux",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "React Native",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
@@ -282,7 +283,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://github.com/user-attachments/assets/8e34143b-61d1-4f8d-ad22-b6a9597af349",
+    image: ERP,
     source_code_link: "https://github.com/dipakpatil5050",
   },
 ];
