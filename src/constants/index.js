@@ -219,7 +219,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/diapkpatil5050",
   },
   {
     name: "CyberSpy",
@@ -321,7 +321,7 @@ const projects = [
     ],
     image: Deepdocs,
     source_code_link: "https://github.com/dipakpatil5050/deepdocs",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
