@@ -320,7 +320,7 @@ const projects = [
       },
     ],
     image: Deepdocs,
-    source_code_link: "https://github.com/dipakpatil5050/deepdocs",
+    source_code_link: "https://github.com/dipakpatil5050/deepdocs"
   }
 ];
 
