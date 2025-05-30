@@ -291,7 +291,7 @@ const projects = [
     name: "Task Management App",
     link: "https://deepdocs.vercel.app/",
     description:
-      "A full-featured, scalable AI based Task Management application. This project streamlines manage the task of user.",
+      "Developed a robust, scalable AI-driven task management application that automates task planning and enhances productivity through intelligent features such as smart categorization, adaptive reminders, and performance insights. Designed with a clean, responsive UI for seamless cross-device usage",
     tags: [
       {
         name: "React js",
@@ -300,10 +300,6 @@ const projects = [
       {
         name: "Redux",
         color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
       },
       {
         name: "Nodejs",
@@ -315,6 +311,10 @@ const projects = [
       },
       {
         name: "JWT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OAuth2",
         color: "blue-text-gradient",
       },
     ],
