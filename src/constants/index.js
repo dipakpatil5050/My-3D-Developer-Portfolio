@@ -286,6 +286,28 @@ const projects = [
     image: ERP,
     source_code_link: "https://github.com/dipakpatil5050",
   },
+  {
+    name: "Task Management App",
+    link: "https://deepdocs.vercel.app/",
+    description:
+      "A full-featured, scalable AI based Task Management application. This project streamlines manage the task of user.",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ERP,
+    source_code_link: "https://github.com/dipakpatil5050/deepdocs",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
