@@ -309,7 +309,6 @@ const projects = [
         name: "Nodejs",
         color: "green-text-gradient",
       },
-      },
       {
         name: "MongoDB",
         color: "pink-text-gradient",
