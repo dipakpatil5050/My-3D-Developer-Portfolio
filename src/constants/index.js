@@ -23,7 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
-  ERP
+  ERP,
+  Deepdocs
 } from "../assets";
 
 export const navLinks = [
@@ -304,8 +305,21 @@ const projects = [
         name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "blue-text-gradient",
+      },
     ],
-    image: ERP,
+    image: Deepdocs,
     source_code_link: "https://github.com/dipakpatil5050/deepdocs",
   },
 ];
