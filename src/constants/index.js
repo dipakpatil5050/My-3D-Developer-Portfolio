@@ -119,10 +119,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Galaxy Infotech",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Nov 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -132,41 +132,33 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "Galaxy Infotech",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2023 - Feb 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained a cross-platform ERP mobile application using React Native, improving accessibility and operational efficiency for end-users.",
+      "Integrated complex business logic and RESTful APIs to manage modules such as inventory, HR, finance, and sales within the mobile app.",
+      "Collaborated with UI/UX designers and backend developers to ensure seamless user experience and robust data handling.",
+      "Implemented mobile-specific optimizations including offline support, local storage, and push notifications.",
+      "Conducted testing and debugging on both iOS and Android platforms to ensure smooth performance and usability.",
+      "Participated in Agile development cycles, sprint planning, and code reviews to maintain high code quality and timely delivery.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+     title: "Full Stack Developer",
+    company_name: "Velox Automation Pvt Ltd",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a fully customizable IoT dashboard product using Java (Spring Boot) for backend APIs and React.js with Redux Toolkit and TanStack Query on the frontend.",
+      "Built scalable and secure RESTful services with PostgreSQL as the database layer and deployed the application on AWS infrastructure.",
+      "Integrated real-time data visualization modules to display telemetry and analytics from various IoT devices, tailored to client-specific configurations.",
+      "Collaborated with cross-functional teams including product managers, UI/UX designers, and QA engineers to deliver client-ready features efficiently.",
+      "Implemented dynamic component rendering and dashboard widgets that adapt based on device types, user roles, and client requirements.",
+      "Ensured responsive design, performance optimization, and cross-browser compatibility across web platforms.",
+      "Participated in regular code reviews, CI/CD pipelines, and Agile development practices to maintain high code quality and delivery standards.",
     ],
   },
 ];
@@ -291,7 +283,7 @@ const projects = [
     name: "Task Management App",
     link: "https://deepdocs.vercel.app/",
     description:
-      "Developed a robust, scalable AI-driven task management application that automates task planning and enhances productivity through intelligent features such as smart categorization, adaptive reminders, and performance insights. Designed with a clean, responsive UI for seamless cross-device usage",
+      "Developed a robust, scalable AI-driven task management application that automates task planning and enhances productivity through intelligent features such as smart categorization, adaptive reminders, and performance insights.",
     tags: [
       {
         name: "React js",
