@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Dipak Patil</span>
+            Hi, I&apos;m <span className="text-[#915eff]">Dipak Patil</span>
           </h1>
           {/* original name color :  text-[#915eff]
             skyblue color : text-sky-500
@@ -23,8 +23,9 @@ const Hero = () => {
             className={`${styles.heroSubText}
            mt-2 text-white-100`}
           >
-            I Develop 3D Modern Front-end, <br className="sm:block hidden" />{" "}
-            user interfaces and Full Stack Application
+            Full-Stack Engineer :{" "}
+            <span>Transforming Ideas into Digital Products.</span>{" "}
+            <br className="sm:block hidden" />
           </p>
         </div>
       </div>
@@ -36,7 +37,7 @@ const Hero = () => {
             className="w-[34px] h-[64px]
            rounded-3xl border-4 border-secondary flex justify-center items-start p-2"
           >
-            <motion.dev
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}

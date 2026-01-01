@@ -24,13 +24,19 @@ import {
   tripguide,
   threejs,
   ERP,
-  Deepdocs
+  Deepdocs,
+  syspro_logo,
+  veloxLogo,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "techstack",
+    title: "Tech Stack",
   },
   {
     id: "work",
@@ -120,8 +126,8 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Galaxy Infotech",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: syspro_logo,
+    iconBg: "#E6DEDD",
     date: "Jan 2023 - Nov 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -133,7 +139,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Galaxy Infotech",
-    icon: tesla,
+    icon: syspro_logo,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Feb 2025",
     points: [
@@ -146,9 +152,9 @@ const experiences = [
     ],
   },
   {
-     title: "Full Stack Developer",
+    title: "Full Stack Developer",
     company_name: "Velox Automation Pvt Ltd",
-    icon: meta,
+    icon: veloxLogo,
     iconBg: "#E6DEDD",
     date: "Feb 2025 - Present",
     points: [
@@ -212,6 +218,20 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/diapkpatil5050",
+    backend: {
+      tech: [
+        "Firebase Authentication",
+        "Firestore Database",
+        "Cloud Functions",
+      ],
+      architecture: "Serverless Architecture",
+      features: [
+        "Real-time data synchronization",
+        "Razorpay payment integration",
+        "Firebase Admin SDK for order management",
+        "Role-based access control",
+      ],
+    },
   },
   {
     name: "CyberSpy",
@@ -234,6 +254,16 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    backend: {
+      tech: ["Node.js", "Express.js", "MongoDB"],
+      architecture: "RESTful API Architecture",
+      features: [
+        "JWT-based authentication",
+        "Content management system",
+        "MongoDB aggregation for analytics",
+        "Image upload with Cloudinary",
+      ],
+    },
   },
   {
     name: "3D Portfolio Website",
@@ -256,6 +286,16 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    backend: {
+      tech: ["Email.js API", "Vite Build System"],
+      architecture: "Static Site with API Integration",
+      features: [
+        "Email API integration",
+        "Performance-optimized build",
+        "SEO optimization",
+        "Progressive Web App (PWA) ready",
+      ],
+    },
   },
   {
     name: "SYSPRO ERP Mobile App",
@@ -278,41 +318,57 @@ const projects = [
     ],
     image: ERP,
     source_code_link: "https://github.com/dipakpatil5050",
+    backend: {
+      tech: ["Java Spring Boot", "PostgreSQL", "RESTful APIs", "JWT Auth"],
+      architecture: "Microservices Architecture",
+      features: [
+        "Multi-tenant architecture",
+        "Real-time inventory updates",
+        "Complex business logic with Spring Boot",
+        "Database optimization with indexing",
+        "API rate limiting & security",
+      ],
+    },
   },
   {
-    name: "Task Management App",
+    name: "IoT Dashboard Platform",
     link: "https://deepdocs.vercel.app/",
     description:
-      "Developed a robust, scalable AI-driven task management application that automates task planning and enhances productivity through intelligent features such as smart categorization, adaptive reminders, and performance insights.",
+      "Developed a robust, scalable IoT dashboard platform using Spring Boot and React.js. The system handles real-time telemetry data from various IoT devices, providing customizable dashboards, analytics, and device management capabilities.",
     tags: [
       {
-        name: "React js",
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JWT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "OAuth2",
+        name: "React.js",
         color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "orange-text-gradient",
       },
     ],
     image: Deepdocs,
-    source_code_link: "https://github.com/dipakpatil5050/deepdocs"
-  }
+    source_code_link: "https://github.com/dipakpatil5050/deepdocs",
+    backend: {
+      tech: ["Java Spring Boot", "PostgreSQL", "AWS EC2", "Redis", "WebSocket"],
+      architecture: "Cloud-Native Microservices",
+      features: [
+        "Real-time WebSocket communication",
+        "Spring Security with OAuth2",
+        "PostgreSQL with TimescaleDB for time-series data",
+        "Redis caching for performance",
+        "AWS deployment with auto-scaling",
+        "RESTful APIs with Swagger documentation",
+        "Docker containerization",
+      ],
+    },
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

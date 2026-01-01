@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, useCallback } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.5 : 0.75}
+        position={isMobile ? [0, -2.5, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -50,13 +50,24 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  // Calculate optimal DPR based on device type
+  const getOptimalDPR = useCallback(() => {
+    if (isMobile) {
+      return [1, 1.5]; // Cap at 1.5 for mobile GPU performance
+    }
+    return [1, 2]; // Standard desktop range
+  }, [isMobile]);
+
   return (
     <Canvas
       frameLoop="demand"
       shadows
-      dpr={[1, 2]}
+      dpr={getOptimalDPR()}
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{
+        preserveDrawingBuffer: true,
+        powerPreference: "high-performance",
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

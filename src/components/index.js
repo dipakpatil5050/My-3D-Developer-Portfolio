@@ -13,6 +13,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Stats from "./Stats";
+import TechStack from "./TechStack";
 
 export {
   Hero,
@@ -28,4 +30,6 @@ export {
   ComputersCanvas,
   StarsCanvas,
   Footer,
+  Stats,
+  TechStack,
 };

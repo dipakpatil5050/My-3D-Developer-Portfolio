@@ -1,5 +1,6 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { useState } from "react";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -15,7 +16,10 @@ const ProjectCard = ({
   image,
   source_code_link,
   link,
+  backend,
 }) => {
+  const [activeTab, setActiveTab] = useState("overview");
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -47,21 +51,94 @@ const ProjectCard = ({
           </div>
         </div>
 
+        {/* Tab Navigation */}
+        {backend && (
+          <div className="flex gap-2 mt-4 border-b border-gray-700">
+            <button
+              onClick={() => setActiveTab("overview")}
+              className={`px-4 py-2 text-[12px] font-medium transition-colors ${
+                activeTab === "overview"
+                  ? "text-white border-b-2 border-[#915eff]"
+                  : "text-secondary"
+              }`}
+            >
+              Overview
+            </button>
+            <button
+              onClick={() => setActiveTab("backend")}
+              className={`px-4 py-2 text-[12px] font-medium transition-colors ${
+                activeTab === "backend"
+                  ? "text-white border-b-2 border-[#915eff]"
+                  : "text-secondary"
+              }`}
+            >
+              Backend
+            </button>
+          </div>
+        )}
+
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">
             <a href={link} target="__blank">
               {name}
             </a>
           </h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
-        </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
-            </p>
-          ))}
+          {activeTab === "overview" ? (
+            <>
+              <p className="mt-2 text-secondary text-[14px]">{description}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {tags.map((tag) => (
+                  <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                    #{tag.name}
+                  </p>
+                ))}
+              </div>
+            </>
+          ) : (
+            backend && (
+              <div className="mt-3">
+                <div className="mb-3">
+                  <p className="text-[#915eff] text-[12px] uppercase font-semibold mb-1">
+                    Architecture
+                  </p>
+                  <p className="text-secondary text-[13px]">
+                    {backend.architecture}
+                  </p>
+                </div>
+
+                <div className="mb-3">
+                  <p className="text-[#915eff] text-[12px] uppercase font-semibold mb-1">
+                    Technologies
+                  </p>
+                  <div className="flex flex-wrap gap-1">
+                    {backend.tech.map((tech, idx) => (
+                      <span
+                        key={idx}
+                        className="bg-black-200 text-secondary text-[11px] px-2 py-1 rounded"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <p className="text-[#915eff] text-[12px] uppercase font-semibold mb-1">
+                    Key Features
+                  </p>
+                  <ul className="text-secondary text-[12px] space-y-1">
+                    {backend.features.slice(0, 3).map((feature, idx) => (
+                      <li key={idx} className="flex items-start">
+                        <span className="text-[#915eff] mr-2">▸</span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )
+          )}
         </div>
       </Tilt>
     </motion.div>

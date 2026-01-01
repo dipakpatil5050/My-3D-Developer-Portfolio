@@ -65,7 +65,7 @@ const Footer = () => {
       opacity-30
       "
       >
-        All right Reserved &copy; 2024
+        All right Reserved &copy; {new Date().getFullYear()}
       </h5>
     </div>
   );

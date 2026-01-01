@@ -30,10 +30,13 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ERP from "./SYSPROERP.png";
 import Deepdocs from "./deepdocs.png";
+import syspro_logo from "./company/syspro_logo.png";
+import veloxLogo from "./company/veloxLogo.png";
 
 export {
   logo,
   backend,
+  veloxLogo,
   creator,
   mobile,
   web,
@@ -61,5 +64,6 @@ export {
   jobit,
   tripguide,
   ERP,
-  Deepdocs
+  Deepdocs,
+  syspro_logo,
 };
