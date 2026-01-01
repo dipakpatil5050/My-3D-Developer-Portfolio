@@ -37,7 +37,7 @@ const About = () => {
     <>
       {/* photo adjustment */}
       <div className="flex flex-wrap ml-96 mb opacity-60 justify-end scale-x-50 scale-y-50 absolute">
-        {/* <img src="src\assets\my.png" alt="my photo png" /> */}
+        <img src="src\assets\my.png" alt="my photo png" />
         {/* src\assets\my.png : full photo link and another half photo link :  public\my.png*/}
       </div>
       <motion.div>
@@ -50,12 +50,15 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-lg leading-[30px]"
       >
-        I'm Dipak Patil from Dhule, Maharashtra, India. a skilled software
-        developer with experience in JavaScript and Java , and expertise in
-        frameworks like React, React Native, Node.js and Spring Boot. I'm a quick learner and
-        collaborate closely with clients to create efficient, scalable, and
-        user-friendly Products and solutions that solve real-world problems. Let's work
-        together to bring your ideas to life!
+        I'm Dipak Patil, a Full-Stack Engineer based in Dhule, Maharashtra. I
+        specialize in bridging the gap between high-performance backends and
+        immersive frontends. With deep expertise in Java (Spring Boot) and
+        JavaScript (React, React Native, Node.js), I move beyond simple coding
+        to engineer scalable solutions. Whether it's designing Microservices
+        architectures, implementing secure OAuth2 flows, or crafting interactive
+        3D interfaces, I build production-ready digital products that are
+        robust, secure, and intuitive. Let's turn your complex requirements into
+        elegant, scalable software.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
