@@ -37,7 +37,7 @@ const About = () => {
     <>
       {/* photo adjustment */}
       <div className="flex flex-wrap ml-96 mb opacity-60 justify-end scale-x-50 scale-y-50 absolute">
-        <img src="src\assets\my.png" alt="my photo png" />
+        {/* <img src="src\assets\my.png" alt="my photo png" /> */}
         {/* src\assets\my.png : full photo link and another half photo link :  public\my.png*/}
       </div>
       <motion.div>
