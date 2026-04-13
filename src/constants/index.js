@@ -334,7 +334,7 @@ const projects = [
     name: "IoT Dashboard Platform",
     link: "https://deepdocs.vercel.app/",
     description:
-      "Developed a robust, scalable IoT dashboard platform using Spring Boot and React.js. The system handles real-time telemetry data from various IoT devices, providing customizable dashboards, analytics, and device management capabilities.",
+      "A scalable IoT dashboard platform built with Spring Boot and React.js for real-time telemetry, analytics dashboards, and centralized device management.",
     tags: [
       {
         name: "Spring Boot",
